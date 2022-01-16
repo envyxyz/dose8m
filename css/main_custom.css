@@ -1,5 +1,7 @@
 /* UI */
 
+ #mainLogo { display: none!important; }
+
 #customizeButton {
     bottom: 210px;
     height: 300px;
