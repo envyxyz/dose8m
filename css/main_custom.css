@@ -1,0 +1,387 @@
+/* UI */
+
+#customizeButton {
+    bottom: 210px;
+    height: 300px;
+    color: transparent!important;
+    background-color: transparent!Important;
+    box-shadow: none!important;
+    top: -300px;
+    left: -27px;
+    transform: scale(1.3);
+    clip-path: polygon(43% 31%, 49% 24%, 69% 26%, 70% 48%, 80% 51%, 85% 59%, 73% 73%, 73% 94%, 40% 96%, 41% 86%, 29% 83%, 29% 73%, 17% 81%, 15% 73%, 20% 74%, 22% 69%, 26% 65%, 28% 51%, 42% 48%, 43% 42%);
+}
+
+#menuClassNameTag {
+    margin-top: -600px;
+    position: absolute;
+    text-shadow: none;
+    color: #fff;
+    z-index: 100;
+    font-size: 19px
+}
+
+
+/* Removal */
+
+#ammoIcon {
+    display: none!Important
+}
+
+#timerIcon {
+    display: none!Important
+}
+
+
+#aContainer {
+    display: none!important
+}
+
+#voiceDisplay{
+	display: none;
+}
+
+#uiBase.onMenu #voiceDisplay {
+    display: none;
+}
+
+.imageButton {
+   display: none!important
+}
+
+.endAHolder {
+    display: none!important
+}
+
+#endAContainer {
+    display: none!important
+}
+
+#supportMapCreator {
+    display: none!important
+}
+
+#supportKrunker {
+    display: none
+}
+
+.UIB {
+    background-color: transparent !important
+}
+
+.leftUIB {
+    background-color: transparent !important
+}
+
+#healthValueHolder {
+    background-color: transparent !important
+}
+
+#leaderDisplay {
+    background-color: transparent!Important
+}
+
+.countIcon {
+    background-color: transparent!Important    
+}
+
+#merchImg{
+	display: none;
+}
+
+#policeButton{
+    display: none!important;
+}
+
+#curGameInfo{
+    display: none!important
+}
+
+.weapKey{
+    display: none!important
+}
+
+#weapDisplay{
+    display: none!important
+}
+
+#reloadMsg {
+    background: transparent !important;
+}
+
+#mapInfoHolder :not(:last-child){
+    display: none!important
+}
+
+/* Health */
+
+#hudClassIcon {
+    display: none;
+}
+
+#healthValueHolder {
+    display: inline-block;
+    background-color: rgba(0,0,0,.0);
+    border-radius: 5px;
+    padding: 0px;
+    transform: translateY(26.5px) translateX(-10px) scale(0.8)
+}
+
+#healthValue {
+    color: #fff;
+    font-size: 24px;
+    will-change: transform;
+    display: inline-block;
+    text-shadow: 0 0 2px #000, 0 0 2px #000, 0 0 2px #000;
+}
+
+#challIcon {
+    width: 28px;
+    height: 28px;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+    display: none;
+}
+
+#maxHP {
+    color: #fff;
+    font-size: 24px;
+    text-shadow: 0 0 2px #000, 0 0 2px #000, 0 0 2px #000;
+}
+
+#healthBar {
+    position: absolute;
+    display: inline-flex;
+    width: 320px;
+    height: 38px;
+    bottom: 13px;
+    border-radius: 0px;
+    z-index: -1 ;
+    background-color: rgba(0,0,0,0.4);
+    outline: 3px solid black;
+}
+
+.healthBarSeg {
+    margin: 0px -1px;
+    border-radius: 0;
+    background-color: transparent;
+    width: -webkit-fill-available;
+}
+
+.hpBSeg {
+    border-radius: 0;
+    box-shadow: none;
+}
+
+/* Chat */
+
+#uiBase.onMenu #chatHolder {
+    position: fixed;
+    bottom: 30px!important; 
+}
+
+#chatHolder {
+    bottom: 145px !important;
+    transition: .5s;
+    left: 20px;
+    border-radius: 4px
+}
+
+
+#chatList{
+    overflow: hidden;
+    border-radius: 0;
+    background: transparent
+}
+
+#chatInputHolder{
+    background: transparent;
+    border: hidden!important;
+    padding: 0!Important;
+    width: 90%;
+    margin-left: -5px;
+    margin-bottom: 5px;
+    height: 0;
+    transition-duration: 420ms
+}
+
+#chatInputHolder:focus-within{
+    height: 30px
+}
+
+#chatSwitchHolder{
+    display: none!Important
+}
+
+#chatInput {
+	background: #00000069;
+	border: hidden;
+	transition-duration: 0ms;
+	border-bottom: 2px solid #fff;
+    opacity: 0;
+    width: 107%!important;
+    font-size: 18px;
+}
+
+.chatItem[style] {
+    color: #fff !important;
+    font-size: 13px;
+    width: -webkit-fill-available;
+    margin: 0;
+    padding: 5px 5px 2px 10px;
+    border-radius: 0;
+}
+
+
+#chatInput:focus{
+    transition-duration: 320ms;
+    border-radius: 1px;
+    opacity: 1;
+    height: 30px
+}
+
+#chatInput::placeholder {
+    color: #ffffff00;
+}
+
+.chatItem {
+    border-radius: 0;
+    margin-right: 0px;
+    text-align: left;
+    background: transparent!Important
+}
+
+
+/* Watermark! Remove = Gay */
+
+.twitch{
+    visibility: hidden
+}
+
+.youtube{
+    visibility: hidden
+}
+
+.youtube:after {
+     content: 'Made By Envy#3063';
+     font-size: 18px;
+     position: fixed;
+     left: 6%;
+     color: rgb(255 255 255 / 0.85);
+     visibility: visible;
+     text-shadow: none
+}
+
+.twitch{
+    visibility: hidden
+}
+
+.twitch:after {
+     content: 'Owned By Dose#0001';
+     font-size: 18px;
+     position: fixed;
+     left: 6%;
+     color: rgb(255 255 255 / 0.85);
+     visibility: visible;
+     text-shadow: none
+}
+
+.streamItem{
+    visibility: hidden
+}
+
+/* Ammo */
+
+#ammoDisplay {
+    margin-bottom: -25px;
+    display: inline-block;
+    font-size: 35px;
+    letter-spacing: -2px;
+    border-radius: unset;
+    height: 65px;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-image: url(../img/blank_2.png);
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+#ammoDisplay *{
+        text-shadow: 0 0 2px #000, 0 0 2px #000, 0 0 2px #000;
+}
+
+#menuWindow *{
+    border: hidden
+}
+
+.menBtnIcn{
+    display: none!important
+}
+
+#menuBtnProfile,#menuBtnShop {
+    font-size:0 !important;
+}
+
+#menuBtnProfile:after,#menuBtnShop:after {
+    font-size:16px !important;
+}
+
+#menuBtnProfile:after {
+    content:'Profile';
+}
+
+#menuBtnShop:after {
+    content:'Shop';
+}
+
+#matchVoteHolder{
+    width: max-content
+}
+
+#uiBase.onMenu #spectateUI {
+    display: block !important;
+    text-align: right !important;
+}
+
+#uiBase.onMenu #spectateHUD {
+    top: 40px !important;
+    right: 0!important;
+    z-index: 1;
+    text-shadow: none;
+    line-height: unset;
+    position: relative !important;
+    transform: unset !important;
+}
+
+#uiBase.onMenu #specNames, #uiBase.onMenu #specKPDContr, #uiBase.onMenu #specNames, #uiBase.onMenu #specContr, #uiBase.onMenu #specTeam0, #uiBase.onMenu #spec0, #uiBase.onMenu #specTeam1, #uiBase.onMenu #spec1, #specGMessage {
+    display: none !important;
+}
+
+#uiBase.onMenu .spectateInfo {
+    position: fixed !important;
+    right: 10px !important;
+    top: 66px !important;
+    margin: 0 !important;
+}
+
+#uiBase.onMenu #specTimer {
+    background-color: transparent;
+    padding: 0;
+    font-size: 40px !important;
+    min-width: unset !important;
+    position: initial !important;
+    transform: unset !important;
+    padding: 0 !important;
+    width: unset !important;
+    text-align: right !important;
+}
+
+#uiBase.onMenu #specGameInfo {
+    font-size: 18px !important;
+    margin-top: 10px !important;
+    text-align: center;
+}
